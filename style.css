@@ -18,6 +18,14 @@ main {
   text-align: center;
 }
 
+/* Responsive Styles for Mobile Devices */
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    width: 100%; /* Ensures full width on mobile screens */
+  }
+}
+
 h1 {
   font-size: 2em;
   margin-bottom: 0;
