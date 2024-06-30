@@ -8,22 +8,21 @@ header {
   background-color: #fb79d0bf;
   padding: 20px;
   text-align: center;
+  justify-items: center;
 }
 
 main {
-  background-color: #fb79d044;
+  background-color: #fcabe1ad;
   padding: 20px;
-  display: flex;
-  flex-grow: 1;
+  /* display: flex;
+  flex-grow: 1; */
   text-align: center;
 }
 
-/* Responsive Styles for Mobile Devices */
 @media screen and (max-width: 768px) {
-  header,
-  main {
-    width: 100%; /* Ensures full width on mobile screens */
-  }
+img {
+  width: -webkit-fill-available;
+}
 }
 
 h1 {
@@ -33,7 +32,7 @@ h1 {
 
 div {
   padding: 20px;
-  flex: 1; /* Makes sections take up equal space */
+  /* flex: 1; */
 }
 
 h2 {
@@ -47,7 +46,7 @@ ul {
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .btn {
