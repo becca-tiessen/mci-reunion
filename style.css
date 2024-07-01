@@ -12,6 +12,7 @@ header {
 }
 
 main {
+  padding: 20px;
   background-color: #fcabe1ad;
   text-align: center;
 }
@@ -29,7 +30,6 @@ h1 {
 
 div {
   padding: 20px;
-  /* flex: 1; */
 }
 
 h2 {
