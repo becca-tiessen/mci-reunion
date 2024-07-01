@@ -18,7 +18,7 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-img {
+.banner {
   width: -webkit-fill-available;
 }
 }
